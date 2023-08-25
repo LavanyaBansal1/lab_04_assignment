@@ -1,5 +1,5 @@
 class FlightTable:
-    def init(self):
+    def __init__(self):
         self.data = []
 
     def add_entry(self, p_id, process, start_time, priority):
